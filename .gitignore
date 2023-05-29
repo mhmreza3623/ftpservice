@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Ftp.Infrastructure/obj/Debug/net7.0
+/Ftp.Domain/obj
+/Ftp.Api/obj/Debug/net7.0
+/.vscode
+/.vs/FtpService
+/obj/Debug

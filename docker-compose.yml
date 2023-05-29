@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  kalaresan.ftp.api:
+    image: ${DOCKER_REGISTRY-}kalaresanftpapi
+    build:
+      context: .
+      dockerfile: KalaResan.Ftp/Dockerfile
+    ports:
+       - 5000:80
+  
+  
+
